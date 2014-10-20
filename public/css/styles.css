@@ -1,0 +1,211 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+body
+{
+	background-color: grey; 
+	color: white;
+}
+
+.container
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+#middle
+{
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+
+    /* center contents */
+    text-align: center;
+}
+
+.announcements ul.a
+{
+    background: grey;
+    list-style-type: circle;
+}
+
+.sorry
+{
+    color: yellow;
+    font-size: 1.5em;
+}
+.text-danger
+{
+    color: yellow;
+    font-size: 1.5em;
+    text-align: center;
+}
+.form-control
+{
+    width: auto;
+}
+
+input[type="radio"]
+{
+    vertical-align: left;
+    display: inline;
+}
+
+input[type="radio"], label
+{
+    display:inline;
+}
+
+
+a:link 
+{
+    color: #33FFFF; text-decoration: underline;
+}
+a:hover 
+{
+    color: white;
+}
+a:visited 
+{
+color: blue;
+}
+
+.table
+{
+    color: white;
+    text-align: left;
+}
+
+.links
+{
+    text-align: left;
+    font-size:1.2em;
+}
+
+.announcements
+{
+    color: white; 
+    font-size:1.2em; 
+    text-decoration: strong;
+}
+
+.coach
+{
+    color: white;
+    font-size: 1.75em;
+    text-decoration: underline;
+}
+
+.info
+{
+    color: white;
+    font-size: 1.1em;
+}
+
+.container ul ul 
+{
+    display:none;
+}
+
+.container ul li: hover > ul
+{
+    display:block;
+}
+
+.container ul
+{
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    background-color: #F8F8FF;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+.container ul li 
+{
+    float:left;
+}
+
+.container ul li a
+{
+    padding: 5px 10px 5px 10px;
+    display:block;
+    color: #757575;
+    text-decoration: none; 
+}
+
+.container ul li:hover
+{
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+}
+
+.container ul li:hover a
+{
+    color: blue;
+}
+
+.container ul li: hover > ul
+{
+    margin:0px;
+    padding: 0px;
+}
+
+.container ul li:hover > ul 
+{
+    float: none;
+    display:block;
+}
+
+.container ul li:hover > ul li a
+{
+    color: blue;
+    min-width:150px;
+}
+
+.container ul li:hover > ul li a:hover
+{
+    color:#fff;
+}
+
+.container ul li
+{
+    position:relative;
+}
+
+.container ul li ul
+{
+    position:absolute;
+    top:30px;
+    left:0px;
+}
+.center
+{
+    text-align: center;
+}
